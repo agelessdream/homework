@@ -1,5 +1,5 @@
 package day03;
-
+//星座
 import java.util.Scanner;
 
 public class Homework8 {
@@ -37,7 +37,7 @@ public class Homework8 {
             case 1:
                 totalDays += day;
         }
-        String s="";
+        String s;
         if(month==2&&day==29){
             s="双鱼座";
         }else if(totalDays<=19){

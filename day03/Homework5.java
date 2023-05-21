@@ -14,30 +14,18 @@ public class Homework5 {
         int distance = 0;
         int daysOfFebruary=(2022 % 4 == 0 && 2022 % 100 != 0 || 2022 % 400 == 0)?29:28;//判断2月天数
         switch (month) {
-            case 12:
-                distance += 30;
-            case 11:
-                distance += 31;
-            case 10:
-                distance += 30;
-            case 9:
-                distance += 31;
-            case 8:
-                distance += 31;
-            case 7:
-                distance += 30;
-            case 6:
-                distance += 31;
-            case 5:
-                distance += 30;
-            case 4:
-                distance += 31;
-            case 3:
-                distance += daysOfFebruary;
-            case 2:
-                distance += 31;
-            case 1:
-                distance += day;
+            case 12: distance += 30;
+            case 11: distance += 31;
+            case 10: distance += 30;
+            case 9: distance += 31;
+            case 8: distance += 31;
+            case 7: distance += 30;
+            case 6: distance += 31;
+            case 5: distance += 30;
+            case 4: distance += 31;
+            case 3: distance += daysOfFebruary;
+            case 2: distance += 31;
+            case 1: distance += day;
         }
         week = (distance + week) % 7;
         if (week == 7) {

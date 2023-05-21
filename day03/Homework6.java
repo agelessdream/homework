@@ -25,7 +25,7 @@ public class Homework6 {
         System.out.println("请输入日");
         int day = scanner.nextInt();
         if (day < 1 || day > 31) {
-            System.out.println("你在放屁");
+            System.out.println("你在搞笑");
             System.exit(0);
         }
         switch (month) {
@@ -34,16 +34,16 @@ public class Homework6 {
                 break;
             case 4, 6, 9, 11:
                 if (day == 31) {
-                    System.out.println("你在放屁");
+                    System.out.println("你在搞笑");
                 } else output(year, month, day);
                 break;
             default:
                 if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
                     if (day > 29) {
-                        System.out.println("你在放屁");
+                        System.out.println("你在搞笑");
                     } else output(year, month, day);
                 } else if (day > 28) {
-                    System.out.println("你在放屁");
+                    System.out.println("你在搞笑");
                 } else output(year, month, day);
         }
         scanner.close();
