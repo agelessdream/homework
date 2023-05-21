@@ -8,6 +8,7 @@ public class Homework3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入原价");
         double totalPrice = scanner.nextDouble();
+        scanner.close();
         if (totalPrice < 0) {
             System.out.println("输入有误");
         } else {
@@ -21,6 +22,5 @@ public class Homework3 {
             }
             System.out.println("折扣为"+discount+"，折后价为"+totalPrice*discount);
         }
-        scanner.close();
     }
 }
