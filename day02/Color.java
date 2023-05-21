@@ -7,8 +7,8 @@ public class Color {
         int green=(color-red*0x10000)>>8;
         int blue=(color-red*0x10000-green*0x100);
 
-        System.out.println(Integer.toHexString(red));
-        System.out.println(Integer.toHexString(green));
-        System.out.println(Integer.toHexString(blue));
+        System.out.printf("%x\n",red);
+        System.out.printf("%x\n",green);
+        System.out.printf("%x\n",blue);
     }
 }
