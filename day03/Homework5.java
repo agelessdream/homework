@@ -12,7 +12,7 @@ public class Homework5 {
         int day = scanner.nextInt();
         scanner.close();
         int distance = 0;
-        int daysOfFebruary=(2022 % 4 == 0 && 2022 % 100 != 0 || 2022 % 400 == 0)?29:28;//判断2月天数
+        int daysOfFebruary=(2023 % 4 == 0 && 2023 % 100 != 0 || 2023 % 400 == 0)?29:28;//判断2月天数
         switch (month) {
             case 12: distance += 30;
             case 11: distance += 31;
