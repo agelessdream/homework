@@ -14,7 +14,7 @@ public class Homework5 {
             year = scanner.nextInt();
             if (year > 0) {
                 break;
-            }
+            }else System.out.println("少侠，你又调皮了");
         }
 
         for (; ; ) {
@@ -22,7 +22,7 @@ public class Homework5 {
             month = scanner.nextInt();
             if (month >= 1 && month <= 12) {
                 break;
-            }
+            }else System.out.println("少侠，你又调皮了");
         }
 
         int daysOfThisMonth;
@@ -40,7 +40,7 @@ public class Homework5 {
             day = scanner.nextInt();
             if (day>0&&day <=daysOfThisMonth) {
                 break;
-            }
+            }else System.out.println("少侠，你又调皮了");
         }
         scanner.close();
         int totalDays = 0;

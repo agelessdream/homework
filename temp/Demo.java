@@ -4,18 +4,20 @@ import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
-        String username, password;
         Scanner scanner = new Scanner(System.in);
-        boolean flag = true;
-        for (; ; ) {
-            System.out.println("请输入用户名");
-            username = scanner.next();
-            System.out.println("请输入密码");
-            password = scanner.next();
-            if (username.equals("张三") && "123".equals(password)) {
-                break;
+        System.out.println("请输入年");
+        int year = scanner.nextInt();
+
+        int count =0;
+        for(int i=2000;i<year;i++){
+            if(i%4==0&&i%100!=0||i%400==0){
+                count +=1;
             }
         }
-        scanner.close();
+
+        int count2=(year-2001)/4+1-((year-2001)/100+1)+(year-2001)/400+1;
+
+        System.out.println(count);
+        System.out.println(count2);
     }
 }
