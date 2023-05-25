@@ -19,12 +19,11 @@ public class Homework7 {
         for(int i=0;i<arr.length;i++){//新数组赋给原数组
             arr[i]=arr2[i];
         }
-        //arr=Arrays.copyOf(arr2,arr2.length);
     }
 
     public static void main(String[] args) {
-        int[] arr={26,67,49,38,52,66,7,71,56,87,100,18};
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] x={26,67,49,38,52,66,7,71,56,87,100,18};
+        sort(x);
+        System.out.println(Arrays.toString(x));
     }
 }

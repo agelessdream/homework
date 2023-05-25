@@ -1,0 +1,11 @@
+package temp;
+
+public class ForTest {
+    public static void main(String[] args) {
+
+
+        int i=0;
+        i=i++;
+        System.out.println(i);
+    }
+}

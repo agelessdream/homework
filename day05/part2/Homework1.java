@@ -6,17 +6,12 @@ public class Homework1 {
     //冒泡排序
     static void bubbleSort(int[] arr) {
         for(int i= arr.length-1;i>0;i--){
-            boolean flag=true;
             for(int j=0;j<i;j++){
                 if(arr[j]>arr[j+1]){
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    flag=false;//只要发生了交换，就改为false
                 }
-            }
-            if(flag){
-                break;//若一轮下来还是true，则这一轮没有发生交换，说明已经排好序，于是结束外层循环
             }
         }
     }
