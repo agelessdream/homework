@@ -9,6 +9,9 @@ public class Homework1 {
         return fibonacci(n - 2) + fibonacci(n - 1);
     }
     public static void main(String[] args) {
-        System.out.println(fibonacci(12));
+        long time1 = System.currentTimeMillis();
+        System.out.println(fibonacci(40));
+        long time2 = System.currentTimeMillis();
+        System.out.println(time2-time1);
     }
 }

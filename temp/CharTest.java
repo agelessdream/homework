@@ -1,18 +1,12 @@
 package temp;
 
 public class CharTest {
+    int a;
+
     public static void main(String[] args) {
-        int i = 2;
-        i *= i++;
-
-        int j = 2;
-        j *= j+1;
-
-        int k = 2;
-        k *= ++k;
-
-        System.out.println("i=" + i);
-        System.out.println("j=" + j);
-        System.out.println("k=" + k);
+        CharTest c1=new CharTest();
+        CharTest c2=c1;
+        c1.a=1;
+        System.out.println(c2.a);
     }
 }

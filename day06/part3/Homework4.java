@@ -8,6 +8,9 @@ public class Homework4 {
     }
 
     public static void main(String[] args) {
-        System.out.println(step(5));
+        long time1 = System.currentTimeMillis();
+        System.out.println(step(40));
+        long time2 = System.currentTimeMillis();
+        System.out.println(time2-time1);
     }
 }
