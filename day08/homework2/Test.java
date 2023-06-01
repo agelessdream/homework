@@ -1,5 +1,5 @@
 package day08.homework2;
-
+/*
 public class Test {
     public static void main(String[] args) {
         final int EMPLOYEE = 10;//表示普通员工
@@ -49,3 +49,4 @@ public class Test {
         }
     }
 }
+*/
