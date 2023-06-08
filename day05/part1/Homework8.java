@@ -5,8 +5,8 @@ public class Homework8 {
         String s="pneumonoultramicroscopicsilicovolcanoconiosis";
         char[] c=s.toCharArray();
         int[] frequency=new int[26];
-        for(int i=0;i<c.length;i++){
-            frequency[c[i]-97]++;
+        for (char value : c) {
+            frequency[value - 97]++;
         }
         int max=frequency[0];int index=0;
         for(int i=0;i<frequency.length;i++){
