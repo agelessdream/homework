@@ -1,4 +1,4 @@
-package temp;
+package day10.temp;
 //tough
 public class StringTest {
     String str="good";

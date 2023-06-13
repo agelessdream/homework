@@ -1,4 +1,4 @@
-package temp;
+package day10.temp;
 
 import java.util.HashMap;
 import java.util.Map;

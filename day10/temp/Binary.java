@@ -1,4 +1,4 @@
-package temp;
+package day10.temp;
 
 public class Binary {
     public static void main(String[] args) {

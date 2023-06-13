@@ -1,4 +1,4 @@
-package temp;
+package day10.temp;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -6,15 +6,11 @@ import java.util.Objects;
 public class HashSetTest {
     public static void main(String[] args) {
         HashSet<Man> set=new HashSet<>();
-        System.out.println(set);
         Man m1=new Man(1001,"AA");
         set.add(m1);
-        System.out.println(set);
         m1.name="CC";
         System.out.println(set);
         set.add(new Man(1001,"CC"));
-        System.out.println(set);
-        set.add(new Man(1001,"AA"));
         System.out.println(set);
 
     }
