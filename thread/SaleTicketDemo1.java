@@ -12,10 +12,10 @@ class Window extends Thread {
                 throw new RuntimeException(e);
             }
             synchronized (Window.class) {
-                if (ticket > 0) {
+
                     System.out.println(getName() + "卖出一张票，票号:" + ticket);
                     ticket--;
-                }
+
             }
         }
     }
